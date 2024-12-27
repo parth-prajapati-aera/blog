@@ -17,13 +17,12 @@ const Blog = (props: BlogProps): JSX.Element => {
   return (
     <div className="container">
       <Head>
-        <title>Blog | {siteTitle} | Parth change</title>
+        <title>Blog | {siteTitle} | Parth</title>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content={`@${twitterHandle}`} />
         <meta property="og:title" content={`Blog | ${siteTitle}`} />
         <meta property="og:type" content="website" />
         <meta property="og:description" content={siteDescription} />
-        <meta property="og:url" content={siteUrl} />
       </Head>
 
       <div className="row">
