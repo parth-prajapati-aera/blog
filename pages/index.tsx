@@ -22,7 +22,6 @@ const IndexPage: NextPage = () => {
       
       <div className="row">
         <div className="col-xs-12 col-sm-4">
-          <ProfileSideBar />
         </div>
         <div className="col-xs-12 col-sm-8">
           <AboutContent />
