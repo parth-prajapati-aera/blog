@@ -34,7 +34,7 @@ jobs:
 
           response=$(curl -s https://api.openai.com/v1/chat/completions \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer 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" \
+            -H "Authorization: Bearer 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" \
             -d "{
               \"model\": \"gpt-4\",
               \"messages\": [
