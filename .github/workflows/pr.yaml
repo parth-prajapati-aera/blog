@@ -36,7 +36,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.APIKEY_MY }}" \
             -d "{
-              \"model\": \"gpt-4o\",
+              \"model\": \"gpt-4o-mini\",
               \"messages\": [
                 { \"role\": \"system\", \"content\": \"${{ vars.CODE_REVIEW_PROMPT }}\" },
                 { \"role\": \"user\", \"content\": $escaped_code }
