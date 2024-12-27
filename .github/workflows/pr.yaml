@@ -34,9 +34,9 @@ jobs:
 
           response=$(curl -s https://api.openai.com/v1/chat/completions \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer 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" \
+            -H "Authorization: Bearer ${{ secrets.APIKEY_MY }}" \
             -d "{
-              \"model\": \"gpt-4\",
+              \"model\": \"gpt-4o-mini\",
               \"messages\": [
                 { \"role\": \"system\", \"content\": \"${{ vars.CODE_REVIEW_PROMPT }}\" },
                 { \"role\": \"user\", \"content\": $escaped_code }
